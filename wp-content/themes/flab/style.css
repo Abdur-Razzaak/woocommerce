@@ -1,0 +1,69 @@
+/*
+Theme Name: Fancy Lab
+Theme URI: http://www.inbrackets.dev/themes/fancy-lab-theme
+Author: inbrackets.dev
+Author URI: http://www.inbrackets.dev
+Description: Fancy Lab is a compatible WoooCommerce theme made with WordPress. It is the best theme for you to sell anything online, beautiful and fully responsive.
+Version: 1.0
+Text-domain:fancy-lab
+License: GNU General Public License v2 or Later
+License URI: http:.www.gnu.org/licenses/gpl-2.0.html
+Tags: e-commerce, custom-menu, featured-images,footer-widgets, theme-options, translation, blog, right-rightbar, sticky-post, threaded-comments
+*/
+
+.main-menu{
+    padding: 0;
+}
+
+.main-menu ul{
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 0;
+}
+
+.main-menu ul li{
+    display: inline;
+    margin: 0 5px 0 0;
+}
+
+.main-menu ul li:last-child{
+    margin: 0;
+}
+
+.footer-menu ul, .footer-widgets ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+.footer-menu ul li{
+    display: inline;
+    margin: 0 10px 0 0;
+}
+
+.footer-menu ul li:last-child{
+    margin: 0;
+}
+
+.footer-menu ul li a{
+    color: #939393;
+    text-decoration: none;
+}
+
+.footer-menu ul li.current-menu-item a{
+    color: #ff9292;
+}
+
+/* General */
+
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
